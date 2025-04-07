@@ -1,8 +1,8 @@
-Fatos sobre o Número - React App
+FATOS SOBRE O NÚMERO - React App
 
 Este é um projeto simples em React que consome a API NumbersAPI e exibe fatos sobre um número. Ele faz duas requisições à API para obter dois fatos diferentes sobre o número escolhido: um fato trivia e um fato matemático. Além disso, uma imagem personalizada do número é gerada e exibida na tela.
 
-Funcionalidades
+FUNCIONALIDADES
 
 Exibe dois fatos diferentes sobre um número:
 
@@ -14,7 +14,7 @@ Exibe uma imagem personalizada com o número.
 
 Permite ao usuário gerar um número aleatório e obter dois novos fatos e a imagem correspondente.
 
-Tecnologias Utilizadas
+TECNOLOGIAS UTILIZADAS
 
 React: Biblioteca JavaScript para criar interfaces de usuário.
 
@@ -24,7 +24,8 @@ API NumbersAPI: API pública que fornece fatos sobre números.
 
 Imagem Dummy: Serviço para gerar imagens simples com texto.
 
-Como Executar o Projeto
+COMO EXCUTAR O PROJETO
+
 1. Clonando o repositório
 Clone este repositório para a sua máquina local.
 
@@ -57,7 +58,7 @@ Copiar
 yarn start
 Isso abrirá o aplicativo no navegador, geralmente em http://localhost:3000.
 
-Como Funciona
+COMO FUNCIONA
 
 O aplicativo começa com o número 42 e exibe dois fatos sobre esse número: um fato trivia e um fato matemático.
 

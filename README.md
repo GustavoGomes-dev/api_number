@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+Fatos sobre o Número - React App
+Este é um projeto simples em React que consome a API NumbersAPI e exibe fatos sobre um número. Ele faz duas requisições à API para obter dois fatos diferentes sobre o número escolhido: um fato trivia e um fato matemático. Além disso, uma imagem personalizada do número é gerada e exibida na tela.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Funcionalidades
+Exibe dois fatos diferentes sobre um número:
 
-## Available Scripts
+Fato trivia: Curiosidade geral sobre o número.
 
-In the project directory, you can run:
+Fato matemático: Informação matemática sobre o número.
 
-### `npm start`
+Exibe uma imagem personalizada com o número.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Permite ao usuário gerar um número aleatório e obter dois novos fatos e a imagem correspondente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Tecnologias Utilizadas
+React: Biblioteca JavaScript para criar interfaces de usuário.
 
-### `npm test`
+Axios: Cliente HTTP para fazer requisições à API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+API NumbersAPI: API pública que fornece fatos sobre números.
 
-### `npm run build`
+Imagem Dummy: Serviço para gerar imagens simples com texto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Como Executar o Projeto
+1. Clonando o repositório
+Clone este repositório para a sua máquina local.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copiar
+git clone https://github.com/seu-usuario/fatos-sobre-o-numero.git
+2. Instalando as dependências
+Navegue até o diretório do projeto e instale as dependências usando o npm ou yarn.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copiar
+cd fatos-sobre-o-numero
+npm install
+Ou, se estiver utilizando o yarn:
 
-### `npm run eject`
+bash
+Copiar
+cd fatos-sobre-o-numero
+yarn install
+3. Rodando o servidor local
+Depois de instalar as dependências, inicie o servidor de desenvolvimento:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copiar
+npm start
+Ou, se estiver utilizando o yarn:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copiar
+yarn start
+Isso abrirá o aplicativo no navegador, geralmente em http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Como Funciona
+O aplicativo começa com o número 42 e exibe dois fatos sobre esse número: um fato trivia e um fato matemático.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+O usuário pode clicar no botão "Pegar Fato Aleatório" para gerar um número aleatório entre 0 e 999. Quando isso acontece, o número gerado será mostrado, e dois novos fatos (um trivia e um matemático) serão carregados, juntamente com a imagem do número.
 
-## Learn More
+O fato trivia é uma curiosidade simples sobre o número.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O fato matemático é uma propriedade matemática do número.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Uma imagem é gerada dinamicamente usando o serviço dummyimage e exibida ao lado dos fatos.
